@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule ^en/(.*) static_en/$1
+RewriteRule ^de/(.*) static_de/$1
