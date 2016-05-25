@@ -1,23 +1,22 @@
 ---
 navigation: Database
-title: Database
+title: Databases
 description: flatCore CMS and PDO/SQLite
 keywords: Database, SQLite, PDO
 ---
 
-# Datenbanken
+# Databases
 
 ## The default Database
 
-flatCore stores nearly all data in SQLite databases. These are located in the directory /content/SQLite/.
+flatCore stores nearly all data in SQLite3 databases. These are located in the directory /content/SQLite/.
 
 ## Use more than one database
 
 To use one flatCore installation on different domains, it is possible to distribute the content in different databases. The default database file is located in <code>/content/SQLite/content.sqlite</code>. To access multiple databases, you can proceed as follows.
 
-1. Duplicate the file content.sqlite and rename it.
-2. Create or modify the file <code>/content/config.php</code>. See the Example below.
-3. Determine when and which the database is active
+1. Duplicate the file <code>content.sqlite3</code> and rename it.
+2. Create or modify the file <code>/content/config.php</code> to Determine when and which the database is active (see the Example below).
 
 Example:
 
@@ -38,9 +37,9 @@ $fc_content_files = array (
 
 In the Backend you can choose now which database is currently active. You can change the database at any time.
 
-Now you can define in rules for the frontend.
+Now you can define your rules for the frontend.
 
-Beispiel:
+Example:
 
 ```php
 // File /content/config.php
@@ -49,7 +48,7 @@ if($_SERVER['HTTP_HOST'] == 'subdomain.example.com') {
 }
 ```
 
-In the database file the following items are stored:
+In the database file <code>content.sqlite3</code> are stored the following contents:
 
 * RSS-Feeds
 * All Pages
@@ -57,4 +56,4 @@ In the database file the following items are stored:
 * Preferences
 
 
-The user database remains unaffected. So all user accounts have for both (or more) domains validity.
+The user database <code>user.sqlite3</code> remains unaffected. So all Admin/User-Accounts are active in both (or more) installations.

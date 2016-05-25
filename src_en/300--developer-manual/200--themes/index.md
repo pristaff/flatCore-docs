@@ -63,6 +63,7 @@ Some templates may be addressed directly by flatCore. These templates must there
 #### List of required Template Files:
 
 * __index.tpl__ ... The first template which is loaded. From here you can link to all your other template files.
+* __layout\_default.tpl__ ... This Template should contain the default Layout of your Theme.
 * __404.tpl__ ... Displayed when an HTTP status code 404 (Page not found)
 * __registerform.tpl__ ... The form new users can sign up
 * __profile\_main.tpl__ ... The Profile page.
@@ -71,3 +72,5 @@ Some templates may be addressed directly by flatCore. These templates must there
 * __loginbox.tpl__ ... Displays the registration form (can be disabled in the preferences).
 * __searchresults.tpl__ ... Displays the search results.
 * __password.tpl__ ... The form to reset the password.
+
+__Note:__ All Template files which named like layout_*.tpl, can be assigned to each Page.

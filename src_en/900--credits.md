@@ -9,8 +9,8 @@ keywords:
 
 If you have contibuted feel free to add your Name on the List 
 
-* Patrick Konstandin
-* André Pristaff http://www.pristaff.de
+* Patrick Konstandin http://www.flatcore.org
+* André Pristaff https://www.pristaff-kreativ.de
 
 ***
 
