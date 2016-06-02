@@ -8,10 +8,10 @@ keywords: install, PHP, mod_rewrite, SQLite
 
 The system does not require any extraordinary components.
 
-* PHP 5.3+
+* PHP 5.5+
 * with PDO/SQLite Module
 
-PDO / SQLite is supposed to be active by default.
+PDO/SQLite is supposed to be active by default.
 
 So far successfully tested webhosts are (alphabetical order):
 
