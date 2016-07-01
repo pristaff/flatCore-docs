@@ -26,8 +26,9 @@ $plugin['description'] = '<p>Your Desription</p>';
 $plugin['version'] = '1.0';
 $plugin['author'] = 'Jon Doe, example.com';
 
-echo 'Hello World';
-
+if(FC_SOURCE == 'frontend') {
+	echo 'Hello World';
+}
 ?>
 ```
 
