@@ -1,6 +1,6 @@
 ---
 navigation: Plugins
-title: Create your own MPlugins
+title: Create your own Plugins
 description: Manuals and Notes for creating Plugins
 keywords: plugins, php, sqlite
 ---
