@@ -9,7 +9,7 @@ keywords: requirements, server, php, pdo
 
 Das System benötigt keine ausergewöhnichen Komponenten.
 
-* PHP 5.3 oder neuer
+* PHP 5.5 oder neuer
 * aktiviertes PDO/SQLite Modul
 
 PDO/SQLite ist Standardmäßig aktiviert.
