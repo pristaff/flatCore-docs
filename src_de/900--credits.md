@@ -10,7 +10,7 @@ keywords:
 If you have contibuted feel free to add your Name on the List
 
 * Patrick Konstandin
-* André Pristaff http://www.pristaff.de
+* André Pristaff
 
 ***
 
